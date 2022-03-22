@@ -1,0 +1,180 @@
+/*!
+Theme Name: Galaxy pro
+Theme URI: http://underscores.me/
+Author: IDDRAK
+Author URI: https://www.templatemonster.com/authors/iddrak/
+Description: Galaxy pro is wordpress theme support by elementor page builder. Multi purpose theme design layout galaxy pro theme. 
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: galaxypro
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready.
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+Galaxy is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+.navbar-collapse .navbar-nav li.menu-item-has-children:before {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    content: '+';
+    font-weight: 700;
+    font-size: 14px;
+    font-family: var(--body-font);
+    transform: translateY(-50%);
+    transition: all 0.3s ease-in;
+    color: #fff;
+}
+.navbar-collapse .navbar-nav li.menu-item-has-children:hover:before {
+    color: #f85032;
+}
+.comments-title{
+    font-size: 20px !important;
+}
+.comment-author img{
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+}
+.comments-area .comments-title {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+
+.comment-list {
+    position: relative;
+}
+
+.comment-list li {
+    padding: 30px 0;
+}
+
+.comment-list .fn {
+    color: #111;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.comment-list li:before {
+    display: none;
+}
+
+.comment-list li img {
+    position: absolute;
+    left: 0;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.comment-list article {
+    margin-left: 100px;
+}
+
+.comment-list .reply {
+    color: #f85032;
+}
+
+.comment-list .comment-content p {
+    color: #767676;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 10px 0;
+    font-weight: 400;
+}
+
+.comment-list .comment-metadata {
+    display: none;
+}
+
+.comment-respond {
+    margin-top: 0px;
+}
+
+.logo-link{
+    padding: 30px 0px;
+}
+.elementor-image-gallery .gallery-item img{
+    filter: grayscale(100%);
+    opacity: .5;
+    transition: all linear .3s;
+}
+.elementor-image-gallery .gallery-item img:hover{
+    filter: grayscale(0);
+    opacity: 1;
+}
+.page-id-16 .page-banner{
+    display: none;
+}
+.sp-testimonial-free-section .sp-tfree-client-image img {
+    width: 100px;
+}
+.sp-testimonial-free-section .sp-testimonial-free-item{
+    position: relative;
+    padding: 30px;
+    margin: auto;
+    max-width: 700px;
+    box-shadow: 0 10px 30px -12px rgba(0,0,0,.2);
+    margin: 30px 15px 30px;
+}
+#sp-testimonial-free-wrapper-1284 .sp-testimonial-free-section .tfree-client-name {
+    color: #333333;
+    font-size: 26px;
+}
+#sp-testimonial-free-wrapper-1284 .sp-testimonial-free-section .tfree-client-designation {
+    color: #f85032 !important;
+}
+.page-id-16 .header.default .navbar .navbar-nav .nav-link {
+    color: #000;
+}
+.page-id-16 .header.default .navbar .navbar-nav .nav-link:hover {
+    color: #f85032;
+}
+.page-id-16 .header.default .is-sticky .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.page-id-16 .navbar-collapse .navbar-nav li.menu-item-has-children:before {
+    color: #000;
+}
+.page-id-16 .is-sticky .navbar-collapse .navbar-nav li.menu-item-has-children:before {
+    color: #fff;
+}
+.current-menu-item .menu-link {
+    color: #f85032;
+}
+#sp-testimonial-free-wrapper-1735 .sp-testimonial-free-section .tfree-client-designation {
+    color: #f85032 !important;
+}
+.sp-testimonial-free-section .tfree-client-name {
+    font-size: 26px;
+}
+.sp-testimonial-free-section .tfree-client-testimonial p, .sp-testimonial-free-section .tfree-client-testimonial {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    margin: 0px 20px 20px 18px;
+    color: #767676;
+}
+.sp-testimonial-free-section .tfree-client-designation {
+    font-size: 15px;
+    font-weight: 500;
+}
+.sidebar .wp-block-image img {
+    height: auto;
+    border: 1px solid #55555542;
+}
+.clear {
+    clear: both;
+}
